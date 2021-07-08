@@ -3,4 +3,4 @@
 /storage/images/cache/*
 /storage/images/profile/*
 /storage/images/site/*
-/.env
+.env
