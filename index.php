@@ -19,6 +19,19 @@ $router->get("/", "Web:home");
 
 
 /**
+ * Panel
+ */
+$router->namespace("Source\Controller\Panel");
+$router->group("/panel");
+$router->get("/login", "Login:login");
+$router->post("/login", "Login:login");
+$router->get("/", "Panel:home");
+$router->post("/", "Panel:home");
+
+$router->get("/sair", "Panel:logout");
+
+
+/**
  * ERROR ROUTES
  */
 $router->group("/ops");

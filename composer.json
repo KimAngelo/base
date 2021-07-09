@@ -29,7 +29,9 @@
     "coffeecode/router": "^1.0",
     "coffeecode/datalayer": "^1.1",
     "vlucas/phpdotenv": "^5.3",
-    "robmorgan/phinx": "^0.12.7"
+    "robmorgan/phinx": "^0.12.7",
+    "ext-json": "*",
+    "ext-pdo": "*"
   },
   "require-dev": {
     "fzaninotto/faker": "^1.9"

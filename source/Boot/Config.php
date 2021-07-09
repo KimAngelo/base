@@ -38,11 +38,11 @@ define("DATA_LAYER_CONFIG", [
 /**
  * SITE
  */
-define("CONF_SITE_NAME", "Nome do Site");
-define("CONF_SITE_TITLE", "Título");
-define("CONF_SITE_DESC", "DESC");
-define("CONF_SITE_LANG", "pt_BR");
-define("CONF_SITE_DOMAIN", "zerocomissao.com.br");
+define("CONF_SITE_NAME", $_ENV['CONF_SITE_NAME']);
+define("CONF_SITE_TITLE", $_ENV['CONF_SITE_TITLE']);
+define("CONF_SITE_DESC", $_ENV['CONF_SITE_DESC']);
+define("CONF_SITE_LANG", $_ENV['CONF_SITE_LANG']);
+define("CONF_SITE_DOMAIN", $_ENV['CONF_SITE_DOMAIN']);
 define("CONF_SITE_ADDR_STREET", "");
 define("CONF_SITE_ADDR_NUMBER", "");
 define("CONF_SITE_ADDR_COMPLEMENT", "");
@@ -51,6 +51,13 @@ define("CONF_SITE_ADDR_STATE", "");
 define("CONF_SITE_ADDR_ZIPCODE", "");
 define("CONF_SITE_PHONE", "");
 define("CONF_SITE_EMAIL", "");
+
+/**
+ * IMAGES SITE
+ */
+define("CONF_IMAGE_LOGO", 'logo.png');//500x200
+define("CONF_IMAGE_ICON", 'icon.png');//150x150
+define("CONF_SITE_SHARE", 'share.png');//1280x620
 
 /**
  * SOCIAL
